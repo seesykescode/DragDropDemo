@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    color: white;
+}
+
+.startZone-header,
+.dragZone-header {
+    color: black;
+    text-align: center;
+    margin: 40px auto;
+    font-size: 3rem;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: dodgerblue;
+    margin: 10px;
+}
+
+.text {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+    font-size: 4rem;
+}
+
+.dropzone {
+    width: 500px;
+    height: 500px;
+    margin: 40px;
+    background-color: black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}

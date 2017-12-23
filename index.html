@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Drag Drop Demo</title>
+</head>
+<body>
+
+<div class="container">
+    <div class="startZone">
+        <h1 class="startZone-header">Start Here</h1>
+        <div id="target" class="dropzone" ondragtStart="dragstart_handler(event)" ondragover="dragover_handler(event)">
+            <div id="s1" class="square" draggable="true" ondragstart="dragstart_handler(event)">
+            </div>
+            <div id="s2" class="square" draggable="true" ondragstart="dragstart_handler(event)">
+            </div>
+            <div id="s3" class="square" draggable="true" ondragstart="dragstart_handler(event)">
+            </div>
+            <div id="s4" class="square" draggable="true" ondragstart="dragstart_handler(event)">
+            </div>
+
+            <div id="s5" class="square" draggable="true" ondragstart="dragstart_handler(event)">
+            </div>
+            <div id="s6" class="square" draggable="true" ondragstart="dragstart_handler(event)">
+            </div>
+            <div id="s7" class="square" draggable="true" ondragstart="dragstart_handler(event)">
+            </div>
+            <div id="s8" class="square" draggable="true" ondragstart="dragstart_handler(event)">
+            </div>
+
+
+            <div id="s9" class="square" draggable="true" ondragstart="dragstart_handler(event)">
+            </div>
+            <div id="s10" class="square" draggable="true" ondragstart="dragstart_handler(event)">
+            </div>
+            <div id="s11" class="square" draggable="true" ondragstart="dragstart_handler(event)">
+            </div>
+            <div id="s12" class="square" draggable="true" ondragstart="dragstart_handler(event)">
+            </div>
+
+        </div>
+    </div>
+
+    <div class="dragZone">
+        <h1 class="dragZone-header">Drag Here</h1>
+        <div id="target2" class="dropzone" ondrop="drop_handler(event)" ondragover="dragover_handler(event)">
+        </div>
+    </div>
+</div>
+    <script src="js/script.js"></script>
+</body>
+</html>
